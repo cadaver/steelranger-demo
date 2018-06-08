@@ -9,8 +9,8 @@ Technical details:
 - Freedirectional scrolling with color per each char
 - 24 sprite multiplexer
 - Realtime sprite depacking for all sprites, using a sprite cache
-- Dynamic memory allocation for sprites, level data and loadable code.
-- Relocation of loadable code's instructions
+- Unified dynamic memory allocation for resources (sprites, level data, loadable "script" code)
+- Relocation of loadable code
 - NinjaTracker V2.03 music & sound playback
 - Loader based on the CovertBitops Loader V2.24 (1541/1581/FD/HD/IDE64)
 - Exomizer2 compression
