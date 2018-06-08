@@ -11,7 +11,7 @@ int main(int argc, char **argv)
   int rawmode = 0;
   if (argc < 3)
   {
-    printf("Invokes exomizer2.08 (forward mode + no literal sequences + max.sequence 255 bytes), output with chunkfile header & custom shortened exomizer header. Specify \"raw\" as extra parameter to indicate the input is raw data and the resulting chunkfile should have 0 objects. Note that Exomizer 2.08 should exist in path as 'exomizer208'.\nUsage: pchunk2 <infile> <outfile> [raw]\n");
+    printf("Invokes exomizer2.08 (forward mode + no literal sequences + max.sequence 255 bytes), output with chunkfile header & custom shortened exomizer header. Specify \"raw\" as extra parameter to indicate the input is raw data and the resulting chunkfile should have 0 objects. Note that Exomizer 2.08 should exist in path as 'exomizer208'.\n\nUsage: pchunk2 <infile> <outfile> [raw]\n");
     return 1;
   }
   if (argc > 3 && !strcmp(argv[3], "raw"))
