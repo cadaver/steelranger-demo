@@ -1,0 +1,109 @@
+; File directory order
+boot.prg STEELRANGER_DEMO
+loader.prg LO
+main.pak 00 9
+title.pak 01
+options.bin 02
+emptysave.bin 03
+emptysave.bin 04
+emptysave.bin 05
+emptysave.bin 06
+music00.pak 07
+music01.pak 08
+music02.pak 09
+music03.pak 0A
+music04.pak 0B
+charset00.pak 13
+charset01.pak 14
+charset02.pak 15
+charset03.pak 16
+level00.pak 20
+level01.pak 21
+level02.pak 22
+level03.pak 23
+level04.pak 24
+sprcrew.pak 33
+sprenemies0.pak 34
+sprenemies1.pak 35
+sprenemies2.pak 36
+sprenemies3.pak 37
+sprboss0.pak 3F
+script00.pak 46
+script01.pak 47
+script02.pak 48
+script03.pak 49
+script09.pak 4F
+script11.pak 51
+script17.pak 57
+script19.pak 59
+script20.pak 5A
+script21.pak 5B
+
+; File data order
+
+; Ending
+script29.pak
+
+; Machine city outside
+level04.pak
+charset03.pak
+music04.pak
+
+; Machine city inside
+level03.pak
+charset02.pak
+music03.pak
+script20.pak
+
+; Common scripts
+script00.pak
+script09.pak
+script21.pak
+
+; Common enemies
+script02.pak
+sprenemies1.pak
+script03.pak
+sprenemies2.pak
+sprenemies3.pak
+script04.pak
+sprenemies4.pak
+script05.pak
+sprenemies5.pak
+sprenemies7.pak
+
+; Surface
+level01.pak
+charset01.pak
+music01.pak
+script01.pak
+sprenemies0.pak
+
+; Caves
+level02.pak
+music02.pak
+
+; Crew sprites + scripts
+sprcrew.pak
+script19.pak
+
+; Intro + ship
+script17.pak
+level00.pak
+charset00.pak
+
+; Title screen + saves
+title.pak
+music00.pak
+options.bin
+emptysave.bin
+emptysave.bin
+emptysave.bin
+emptysave.bin
+
+; Mainpart
+main.pak
+
+; Bootpart
+boot.prg
+loader.prg
