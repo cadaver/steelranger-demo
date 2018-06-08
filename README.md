@@ -43,4 +43,4 @@ DEALINGS IN THE SOFTWARE.
 
 ## Content license
 
-Graphics, levels, music, sound effects, story/dialogue text is copyright (c) 2016-2018 Lasse Öörni. All rights reserved.
+Graphics (except Psytronik logo), levels, music, sound effects, story/dialogue text is copyright (c) 2016-2018 Lasse Öörni. Psytronik logo (c) Psytronik. All rights reserved.
