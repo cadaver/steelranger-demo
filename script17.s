@@ -463,10 +463,11 @@ ShowIntroFinalPage:
                 sta saveD
                 sta saveState-playerStateStart+zoneBits     ;Clear visited zones to not show the undamaged ship on map
                 sta saveState-playerStateStart+zoneBits+1
+                sta saveYL
                 lda #PLAYER_STARTX_AFTERINTRO
-                sta saveXH+ACTI_PLAYER
+                sta saveXH
                 lda #PLAYER_STARTY_AFTERINTRO
-                sta saveYH+ACTI_PLAYER
+                sta saveYH
                 lda #WORLD_STARTX_AFTERINTRO
                 sta saveWorldX
                 lda #WORLD_STARTY_AFTERINTRO
