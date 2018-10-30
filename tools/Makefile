@@ -1,4 +1,4 @@
-all: worlded2.exe spred2.exe pack2.exe pchunk2.exe maked64.exe symbols.exe filejoin.exe filesplit.exe bmeconv.exe datafile.c dat2inc.c gfxconv.exe gt2nt2.exe pic2chr.exe ins2nt2.exe d642prg.exe prg2d64.exe
+all: worlded2.exe spred2.exe pack2.exe pchunk2.exe maked64.exe symbols.exe filejoin.exe filesplit.exe bmeconv.exe datafile.exe dat2inc.exe gfxconv.exe gt2nt2.exe pic2chr.exe ins2nt2.exe d642prg.exe prg2d64.exe
 
 clean:
 	del *.exe
