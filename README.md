@@ -15,7 +15,7 @@ Technical details:
 - Loader based on the CovertBitops Loader V2.24 (1541/1581/FD/HD/IDE64)
 - Exomizer2 compression
 
-See also [CovertBitops homepage](http://cadaver.github.io) and [Psytronik Steel Ranger page](http://www.psytronik.net/newsite/index.php/c64/95-steelranger)
+See also [CovertBitops homepage](http://cadaver.github.io) and [Psytronik Steel Ranger itch.io page](https://psytronik.itch.io/steelranger)
 
 ## Code license
 
